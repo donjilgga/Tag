@@ -75,7 +75,7 @@ public class QueryChaincode {
 //
 //			Thread.sleep(10000);
 //			String[] args1 = {"04:5D:45:32:1E:70:81"};
-			String[] args1 = {"0000"};
+			String[] args1 = {"04:5D:45:32:1E:70:81"};
 			Logger.getLogger(QueryChaincode.class.getName()).log(Level.INFO, "Querying for a product - " + args1[0]);
 			
 			Collection<ProposalResponse>  responses1Query = channelClient.queryByChainCode("tag", "queryProduct", args1);
