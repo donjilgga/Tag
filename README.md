@@ -33,9 +33,9 @@ sudo ./javabuild.sh
 
 ##### 3 HLF JAVA SDK WEB SERVER 실행
 ```
-cd  /home/vagrant/data/apache-tomcat-8.5.66/bin/
+cd  /home/vagrant/data/
 
-sudo ./startup.sh
+sudo java -jar -Dfile.encoding=UTF-8 Tag-0.0.1-SNAPSHOT.jar
 ```
 
 ##### !! data 폴더에 톰캣이 없을때
